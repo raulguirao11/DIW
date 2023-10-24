@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>Bootstrap Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+    <style>
+        #otra{
+            background-color: aqua;
+            height:340px;
+        }
+
+        #comida{
+            background-color: lightblue;
+            text-align: left;
+            height:340px;
+        }
+
+        #rojo{
+            color:rgb(173, 7, 7);
+            background-color: rgb(220, 114, 114);
+        }
+
+        @media (max-width:768px){
+            #tomate{
+                display:none;
+            }
+        }
+
+
+
+        
+
+    </style>
+</head>
+<body>
+    
+    <div class="container text-center">
+        <div class="row align-items-center" >
+            <div class="col-se-12 col-md-6" id="comida">
+                <h1>Hablemos de Ingredientes</h1>
+            
+            <div class="row">
+                <div class="col" id="list1">
+            <ul class="list-group">
+                <li class="list-group-item " >Patatas</li>
+                <li class="list-group-item">Calabazas</li>
+                <li class="list-group-item" id="tomate">Tomates</li>
+                <li class="list-group-item">Cebollas</li>
+                <li class="list-group-item disabled" aria-disabled="true">Judías</li>
+              </ul>
+              
+            </div>
+              <div class="col" id="list2">
+              <ul class="list-group" >
+                <li class="list-group-item">Harina</li>
+                <li class="list-group-item">Azúcar</li>
+                <li class="list-group-item">Leche</li>
+                <li class="list-group-item" id="rojo">Café</li>
+              </ul>
+            </div>
+        </div>
+        </div>
+           
+            <div class="col-se-12 col-md-6" id="otra"><h1>Hablemos de otra cosa</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores reiciendis sequi nemo eos corporis? Officiis hic possimus, et nulla esse repellendus? Mollitia provident consequatur sit totam vero obcaecati sint. Recusandae et, eveniet provident sapiente sint eligendi minus iusto libero ea quis consequatur natus voluptatibus animi illo quibusdam nihil numquam dolorem itaque reprehenderit nostrum quod odit? Ipsum sunt natus eum</p>
+        </div>
+    
+    </div>
+    </div>
+    
+</body>
+</html>
